@@ -31,6 +31,10 @@ Domain Path:      /languages/
    IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto");
+@font-face {
+  font-family: 'Nebulous'; 
+  src: url("nebulous.ttf"); 
+}
 /* ==========================================================================
    GENERAL
    ========================================================================== */
@@ -39,7 +43,7 @@ body {
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
-  background: #fff;
+  background: #000000;
   overflow-x: hidden;
 }
 
@@ -105,6 +109,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background: #3c9cfd !important;
 }
 
+.neb{
+  font-family: 'Nebulous';
+  font-size: 45pt;
+}
+
 /* ==========================================================================
    Section Title
    ========================================================================== */
@@ -162,9 +171,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   position: relative;
   z-index: 1;
 }
@@ -518,8 +527,8 @@ button:focus {
 }
 
 .menu-bg {
-  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%) !important;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
+  background: -webkit-linear-gradient(left, #002928 0%, #00485a) !important;
+  background: linear-gradient(to right, #002928 0%, #00485a 100%) !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   padding: 5px;
@@ -629,9 +638,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(#002928 0%, #00485a);
+  background-image: -webkit-linear-gradient(#002928 0%, #00485a);
+  background-image: -ms-linear-gradient(#002928 0%, #00485a);
 }
 
 .hero-area .contents {
@@ -688,9 +697,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
 }
 
 .hero-area-2 .contents {
@@ -827,9 +836,9 @@ button:focus {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
 }
 
 .video-promo .video-promo-content {
@@ -1138,9 +1147,9 @@ button:focus {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   z-index: 1;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1214,9 +1223,9 @@ button:focus {
   width: 40px;
   height: 40px;
   display: block !important;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
+  background-image: -moz-linear-gradient( #002928 0%, #00485a) !important;
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a) !important;
+  background-image: -ms-linear-gradient( #002928 0%, #00485a) !important;
   text-align: center;
   display: inline-block;
   opacity: 1 !important;
@@ -1296,9 +1305,9 @@ button:focus {
 
 .single-team .social-list {
   position: absolute;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   border-top-right-radius: 30px;
   bottom: 0;
   left: -40px;
@@ -1498,9 +1507,9 @@ button:focus {
   -moz-transition: background-image 0.3s  ease-out;
   -o-transition: background-image 0.3s  ease-out;
   transition: background-image 0.3s  ease-out;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.38);
 }
 
@@ -1567,9 +1576,9 @@ button:focus {
 
 .controls a:hover,
 .controls .active {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   color: #fff !important;
 }
 
@@ -1670,9 +1679,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   opacity: 0.6;
 }
 
@@ -1990,9 +1999,9 @@ textarea {
   Subscribe Style
   ========================================================================== */
 #subscribe {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   position: relative;
 }
 
@@ -2146,9 +2155,9 @@ textarea {
 }
 
 footer .footer-Content {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
   padding: 60px 0 0px;
   color: #546E7A;
 }
@@ -2319,9 +2328,9 @@ footer .menu li a:hover {
 }
 
 #counter .bg-color-1 {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
 }
 
 #counter .bg-color-2 {
