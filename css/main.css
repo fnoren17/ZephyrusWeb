@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: #191c1e;
+  color: #cccccc;
 }
 
 ul {
@@ -109,10 +109,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background: #3c9cfd !important;
 }
 
-.neb{
-  font-family: 'Nebulous';
-  font-size: 45pt;
-}
+
 
 /* ==========================================================================
    Section Title
@@ -588,6 +585,8 @@ button:focus {
 
 .navbar-brand {
   color: #ffffff;
+  font-family: 'Nebulous';
+  font-size: 45pt;
 }
 
 .navbar-brand:hover{
