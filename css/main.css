@@ -893,8 +893,8 @@ color: #00e3c1;
 }
 
 #screenshots .screens-slider .item img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 100%;
 }
 
 #screenshots .screens-slider .owl-controls .owl-buttons {
