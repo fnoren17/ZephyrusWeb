@@ -843,18 +843,18 @@ color: #00e3c1;
 /* ==========================================================================
    Video promo Style
    ========================================================================== */
-.video-promo {
+.features-gradient {
   background-image: -moz-linear-gradient( #002928 0%, #00485a);
   background-image: -webkit-linear-gradient( #002928 0%, #00485a);
   background-image: -ms-linear-gradient( #002928 0%, #00485a);
 }
 
-.video-promo .video-promo-content {
+.features-gradient .video-promo-content {
   color: #fff;
   margin-bottom: 15px;
 }
 
-.video-promo .video-promo-content .video-popup {
+.features-gradient .video-promo-content .video-popup {
   width: 80px;
   height: 80px;
   background: #fff;
