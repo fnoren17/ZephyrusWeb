@@ -135,9 +135,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background-clip: text;
   text-fill-color: transparent;
   background-color: #2dfbff;
-  background-image: -webkit-linear-gradient(bottom right, #3c96ff, #2dfbff);
-  background-image: -o-linear-gradient(bottom right, #3c96ff, #2dfbff);
-  background-image: linear-gradient(to top left, #3c96ff, #2dfbff);
+  background-image: -webkit-linear-gradient(bottom right, #002928 0%, #00485a);
+  background-image: -o-linear-gradient(bottom right, #002928 0%, #00485a);
+  background-image: linear-gradient(to top left, #002928 0%, #00485a);
   position: relative;
 }
 
@@ -822,6 +822,11 @@ color: #00e3c1;
   padding: 80px 0 0px;
 }
 
+.download-content{
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
+}
 #download .download-wrapper {
   padding: 0px 30px;
 }
@@ -1110,6 +1115,7 @@ color: #00e3c1;
    ========================================================================== */
 #features-two .img-thumb {
   margin-bottom: 15px;
+  background-color: #007bb5;
 }
 
 /* ==========================================================================
@@ -1255,6 +1261,11 @@ color: #00e3c1;
 .single-team:hover .team-details {
   opacity: 1;
 }
+#team{
+  background-image: -moz-linear-gradient( #002928 0%, #00485a);
+  background-image: -webkit-linear-gradient( #002928 0%, #00485a);
+  background-image: -ms-linear-gradient( #002928 0%, #00485a);
+}
 
 .single-team {
   position: relative;
@@ -1298,7 +1309,7 @@ color: #00e3c1;
 .single-team .team-details .team-title {
   margin-bottom: 5px;
   font-size: 18px;
-  color: #263238;
+  color: #ffffff;
 }
 
 .single-team .team-details p {
