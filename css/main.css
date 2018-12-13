@@ -50,7 +50,9 @@ body {
 html {
   overflow-x: hidden;
 }
-
+p .black{
+  color: #000000;
+}
 p {
   font-size: 14px;
   color: #a0a6ad;
