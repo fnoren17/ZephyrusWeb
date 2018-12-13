@@ -141,6 +141,20 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 
+.gradient{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-color: #2dfbff;
+  background-image: -webkit-linear-gradient(bottom right, #002928 0%, #00485a);
+  background-image: -o-linear-gradient(bottom right, #002928 0%, #00485a);
+  background-image: linear-gradient(to top left, #002928 0%, #00485a);
+  position: relative;
+}
 /* ==========================================================================
    Buttons
    ========================================================================== */
